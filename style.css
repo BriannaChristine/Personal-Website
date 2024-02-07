@@ -1,0 +1,55 @@
+html body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 40px;
+  background-color: #99ffcc;
+  padding: 9px;
+  border: 5px;
+}
+
+.main {
+  background-color: #99ffcc;
+  width: fit-content;
+}
+
+.menu li {
+  display: inline-block;
+  padding-right: 7px;
+  font-size: 25px;
+  color: black;
+}
+
+.main p {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 1px;
+}
+
+#photo {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 200px;
+}
+
+.container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.mainportfolio p {
+  background-color: #99ffcc;
+  padding: 50px;
+}
+
+.portfoliocontainer {
+  display: flex;
+}
