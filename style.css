@@ -1,34 +1,38 @@
 html body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #bc7c9c;
 }
 
-.header {
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.flexbox-container {
   display: flex;
   justify-content: space-between;
-  font-size: 40px;
-  background-color: #99ffcc;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 100px;
+  background-color: #7a5980;
   padding: 9px;
   border: 5px;
 }
-
-.main {
-  background-color: #99ffcc;
-  width: fit-content;
+.flexbox-item li {
+  display: inline-block;
+  font-size: 50px;
 }
 
-.menu li {
-  display: inline-block;
-  padding-right: 7px;
-  font-size: 25px;
+.flexbox-item a {
   color: black;
 }
+.flexbox-item a:hover {
+  color: hotpink;
+}
 
-.main p {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 1px;
+.flexbox-item ul {
+  margin: 3px;
 }
 
 #photo {
@@ -37,19 +41,83 @@ html body {
 }
 
 img {
-  width: 200px;
+  width: 300px;
 }
 
-.container {
-  padding-left: 100px;
-  padding-right: 100px;
+.main {
+  margin-left: 75px;
+  margin-right: 75px;
+  background-color: #3b3b58;
+  padding: 10px;
+}
+.main p {
+  color: #d7cdcc;
 }
 
-.mainportfolio p {
-  background-color: #99ffcc;
-  padding: 50px;
-}
-
-.portfoliocontainer {
+footer {
   display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  justify-content: center;
+  background-color: #7a5980;
+}
+
+footer h2 {
+  color: black;
+  display: inline-block;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+.footer-container {
+  display: flex;
+  background-color: #99ffcc;
+  padding: 10px;
+}
+
+.footer-text {
+  background-color: #99ffcc;
+}
+
+.bottom-container {
+  display: inline-block;
+}
+
+/*Portfolio page*/
+
+.flex-box1 {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  background-color: #ffffff;
+}
+
+.flex-box1 h1 {
+  margin-left: 75px;
+  margin-right: 50px;
+  color: #d7cdcc;
+}
+
+.box-img img {
+  margin: 0px;
+  padding: 0px;
+  width: 475px;
+  height: 325px;
+}
+
+.box-text {
+  font-size: 75%;
+  background-color: #3b3b58;
+  padding: 20px;
 }
