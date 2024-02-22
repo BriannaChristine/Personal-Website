@@ -121,3 +121,21 @@ a:hover {
   background-color: #3b3b58;
   padding: 20px;
 }
+
+/*Contact stylesheet */
+
+.formContainer {
+  align-self: center;
+  flex-direction: column;
+  width: 350px;
+}
+
+.formContainer div {
+  display: flex;
+  flex-direction: column;
+}
+
+#message {
+  align-self: center;
+  font-size: 50px;
+}
